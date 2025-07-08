@@ -22,8 +22,32 @@
 
     <main>
         <section>
-            <h2>Assistente de Meta</h2>
-            <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
+            <div>
+
+                <h2>Assistente de Meta</h2>
+                <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
+
+                <form>
+                    <input type="password" placeholder="Informe a API KEY do Gemini">
+
+                    <select>
+                        <option value="">Selecione um jogo</option>
+                        <option value="Valorant">Valorant</option>
+                        <option value="LOL">League of Legends</option>
+                    </select>
+
+                    <input type="text" placeholder="Ex: Melhor build para ABC . . . " required>
+
+                    <button>
+                        Perguntar
+                    </button>
+                </form>
+
+                <div id="aiResponse">
+                    <div class="response-content"></div>
+                </div>
+
+            </div>
         </section>
     </main>
 </body>
