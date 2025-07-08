@@ -1,0 +1,21 @@
+body {
+    background-image: url("./assets/images/Fundo.png");
+    background-repeat: no-repeat; /*keyword*/
+    background-size: 100% auto; /* width height*/
+    background-position: top center; /*vertical horizontal */
+    background-color: #121214; /*HEX: RR,GG,BB*/
+    color: white;
+}
+
+.logo-header {
+    width: 500px;  
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+body * {
+    font-family: "Inter";
+    line-height: 160%;
+}
