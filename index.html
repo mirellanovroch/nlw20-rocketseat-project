@@ -36,14 +36,14 @@
                         <option value="LOL">League of Legends</option>
                     </select>
 
-                    <input type="text" placeholder="Ex: Melhor build para ABC . . . " required>
+                    <input id="questionInput" type="text" placeholder="Ex: Melhor build para ABC . . . " required>
 
-                    <button id="askButton">
+                    <button id ="askButton">
                         Perguntar
                     </button>
                 </form>
 
-                <div id="aiResponse">
+                <div id="aiResponse" class="hidden">
                     <div class="response-content"></div>
                 </div>
 
@@ -51,6 +51,7 @@
         </section>
     </main>
 
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
